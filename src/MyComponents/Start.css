@@ -1,0 +1,90 @@
+@import "@font/nunito";
+@import "@fontsource/poppins";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
+  text-align: center;
+}
+
+.main-logo {
+  height: 7vmin;
+  pointer-events: none;
+}
+
+.btn {
+  font-size: 35px;
+  left: 33%;
+  right: 29%;
+  top: 85%;
+  bottom: 4%;
+  background: #ff3b3f;
+  border-radius: 60px;
+  position: absolute;
+  font-family: var(--fontFamily-nunito);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 55px;
+  color: #ffffff;
+  border: none;
+}
+
+.main-header {
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  left: 400px;
+  top: 40px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(175, 156, 243, 0) 7.92%,
+    #af9cf3 86.48%
+  );
+  background-blend-mode: multiply;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 52%;
+}
+
+.circle {
+  width: 175px;
+  height: 175px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute; 
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 175px;
+  /* or 112% */
+
+  text-align: center;
+
+  color: #ff3b3c;
+}
+
+.main-link {
+  color: #61dafb;
+}
+
+.button {
+  left: 40px;
+  line-height: 1600px;
+}
